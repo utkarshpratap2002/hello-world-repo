@@ -4,7 +4,7 @@ on: push
 
 jobs:
     first-job:
-        runs-on: ubuntu-latet
+        runs-on: ubuntu-latest
         steps: 
         - name: Display Helo World
           run: echo "Hello World"
