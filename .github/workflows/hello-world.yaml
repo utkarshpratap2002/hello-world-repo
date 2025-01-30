@@ -1,0 +1,11 @@
+name: Hello World
+
+on: push
+
+jobs:
+    first-job:
+        runs-on: ubuntu-latet
+        steps: 
+        - name: Display Helo World
+          run: echo "Hello World"
+ 
